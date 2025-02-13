@@ -1,0 +1,15 @@
+
+
+hadoop is
+key components of hadoop -
+ 1. Hadoop distributed file sydtem is the storage component of hadoop designed to store large amount of data across multiple nodes  It breska down large file into small blocks and distribute them across the cludter of parallel processing 
+2.MAPREDUCE- It is a programing model and processing engine for distributed data processing, It dfivides a task into smaller sub task and procces them
+              the process involve two phase  1.- the map phase- 
+                                             2- Reduce phase- where the data is aggregated 
+                                             2. Yarn - yet another resource negotiator/manager-It is a resource mangement layer  for hadoop responsible for managing and scheduling resources across the cluster It enables multiple application to share resourse efficently 
+
+
+BIG DATA PROBLEMS_
+    1 .variety _ types of format
+    2. VOLUME
+    3 .VELOCITY
