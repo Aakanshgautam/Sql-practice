@@ -19,4 +19,5 @@ left join warehouses as w                           -- join warehouse table with
 on i.warehouse_id = w.warehouse_id
 where w.warehouse_id=1
 order by i.quantity  desc ;where w.warehouse_id=1                              -- we need only the products  which are in warehouse whose id =1
+where w.warehouse_id=1                              -- we need only the products  which are in warehouse whose id =1
 order by i.quantity  desc ;
