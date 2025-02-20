@@ -22,7 +22,7 @@ Expected O/P:  */
 -- in this question we need to compare the rows of same table ,
 -- so we used self join and apply condition emplopyees who joined after their manager
 
-select m.employee_name from Employees_linkedin2 as e
-join  Employees_linkedin2 as m
-on  e.employee_id = m.manager_id
-where e.hire_date < m.hire_date;
+select e1.employee_name from Employees_linkedin2 as e1
+join  Employees_linkedin2 as e2
+on  e2.employee_id = e1.manager_id
+where e1.hire_date > e2.hire_date;
