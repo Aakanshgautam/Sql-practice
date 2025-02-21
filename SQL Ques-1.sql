@@ -10,7 +10,6 @@ product_name        | category    | quantity
 -------------------|-------------|----------
 Gaming Mouse       | Electronics | 200 */
 
-Select p.product_name ,p.category, coalesce(i.quantity,0) as quantity from products as p
 left join inventory as i
 on p.product_id =i.product_id
 left join warehouses as w
