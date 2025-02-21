@@ -1,3 +1,4 @@
+use aakanshdb;
 
 /* ## Question 1 (LEFT JOIN)
 Find all products and their current inventory levels in Seattle warehouse (warehouse_id = 1), including products with no inventory. 
