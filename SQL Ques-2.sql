@@ -12,6 +12,9 @@ Boston, MA  | 365           | 25696.35
 Chicago, IL | 275           | 21997.25``` */
 
 
+-- in this question we need to list the location of warwehouses that store electronic products along with the total quantity and total value
+-- so to fetch this expected columns we need  join the product table (to find thecategory,base price),inventory table,warehouse
+
 select w.location,i.quantity as toatal_quantity, (i.quantity * p.base_price) as total_value   -- columns we need
 from warehouses as w
 inner join inventory  as i                         -- we need values that match in warehoues table and product table                                        
